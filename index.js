@@ -9,3 +9,4 @@
 //console.log($('h1').css('font-size')); //gives you the value of h1
 //$('h1').css('font-size', '5rem'); //set the value
 
+$('h1').addClass('big-title');
