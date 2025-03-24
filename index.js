@@ -27,3 +27,13 @@ $('h1').click(function(){
 $('button').click(function(){
     $('h1').css('color','purple');
 });
+
+$('input').keypress(function(event){
+    console.log(event.key);
+});
+
+
+//every key that we press is shown on the H1 
+$(document).keypress(function(event){
+    $('h1').text(event.key);
+});
