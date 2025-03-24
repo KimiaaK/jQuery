@@ -13,6 +13,17 @@ $('h1').addClass('big-title margin-50');
 
 $('h1').text('bye');
 $('button').html(<em>Hey</em>);
-$('a').attr('href','https://yahoo.com'); //anchor tag
+$('a').attr('href','https://yahoo.com'); //anchor tag and also the content of the link was changed to yahoo instead of the google
+//it was basically rewritten.
 
 
+// a class is also an html attribute
+
+//adding an event listener:
+$('h1').click(function(){
+    $('h1').css('color', 'purple');
+});
+
+$('button').click(function(){
+    $('h1').css('color','purple');
+});
