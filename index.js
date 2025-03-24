@@ -11,6 +11,8 @@
 
 $('h1').addClass('big-title margin-50');
 
-$(h1).text('bye');
+$('h1').text('bye');
+$('button').html(<em>Hey</em>);
+$('a').attr('href','https://yahoo.com'); //anchor tag
 
 
